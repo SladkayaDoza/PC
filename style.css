@@ -1,18 +1,24 @@
 @font-face {
-    font-family: Hermes; /* Гарнитура шрифта */
+    font-family: hermes; /* Гарнитура шрифта */
     src: url(fonts/hermes.eot); /* Для IE5-8 */
+    src: url(fonts/hermes.ttf);
     src: local(hermes), url(fonts/hermes.ttf); /* Для остальных браузеров */
    }
 
 body {
 	margin: 0;
-	font-family: Hermes;
+	font-family: hermes;
 	color: #686868;
 	text-decoration: none;
 }
 
 a {
 	text-decoration: none;
+	font-family: hermes;
+}
+
+p {
+	font-family: hermes;
 }
 
 .osnova {
