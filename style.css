@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Hermes; /* Гарнитура шрифта */
+    src: url(fonts/hermes.eot); /* Для IE5-8 */
+    src: local(hermes), url(fonts/hermes.ttf); /* Для остальных браузеров */
+   }
+
 body {
 	margin: 0;
-	font-family: hermes;
+	font-family: Hermes;
 	color: #686868;
 	text-decoration: none;
 }
