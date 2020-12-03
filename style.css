@@ -240,6 +240,18 @@ p {
 }
 }
 
+@media screen and (max-width: 1550px) {
+	.you_im {
+	display: inline;
+	margin: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    /*margin-bottom: 60px;
+    margin-top: 50px;*/
+  	transition: .9s;
+}
+}
+
 @media screen and (max-width: 670px) {
 	.i_1 {
 	width: 25%;
@@ -322,8 +334,54 @@ p {
 
 .you_im {
 	display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 60px;
-    margin-top: 50px;
+	margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    /*margin-bottom: 60px;
+    margin-top: 50px;*/
+}
+
+.you_im {
+  	transition: .9s;
+}
+
+ul {
+	line-height: 0;
+	text-justify: newspaper;
+	zoom: 1;
+	-ms-text-align-last: justify;
+	text-align-last: justify;
+	display: inline-block
+}
+
+ul:after {
+	width: 100%;
+	height: 0px;
+	visibility: hidden;
+	overflow: hidden;
+	content: "";
+	display: inline-block;
+}
+
+ul li {
+	line-height: normal;
+	vertical-align: top;
+	display: inline-block
+}
+
+li {
+	list-style-type: none; /* Убираем маркеры */
+	display: inline-block
+}
+
+.you_im:hover {
+	-webkit-transform: scale(1.3);
+  	-ms-transform: scale(1.3);
+  	transform: scale(1.3);
+  	transition: .5s;
+}
+
+.cent {
+	margin-left: auto;
+	margin-right: auto;
 }
