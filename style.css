@@ -149,18 +149,36 @@ p {
 	width: 30%;
 	margin: 20px;
 	margin-top: 80px;
+	transition: .5s;
+}
+
+.i_1:hover {
+	transform: scale(1.3);
+	
 }
 
 .i_2 {
 	width: 30%;
 	margin: 20px;
 	margin-top: 80px;
+	transition: .5s;
+}
+
+.i_2:hover {
+	transform: scale(1.3);
+	
 }
 
 .i_3 {
 	width: 30%;
 	margin: 20px;
 	margin-top: 80px;
+	transition: .5s;
+}
+
+.i_3:hover {
+	transform: scale(1.3);
+	
 }
 
 .im_box {
@@ -337,6 +355,7 @@ p {
 	margin: 20px;
     margin-left: 45px;
     margin-right: 45px;
+    border-radius: 10px;
     /*margin-bottom: 60px;
     margin-top: 50px;*/
 }
